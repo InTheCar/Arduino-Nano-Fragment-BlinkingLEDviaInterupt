@@ -7,7 +7,7 @@
 
  -for demo the internal LED is used
 
-
+```cpp
  #include <TimerOne.h>
  #define PIN_LED 13
  //
@@ -103,6 +103,7 @@
    }
  }
  //int switch_position
+```
 
 
 
