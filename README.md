@@ -1,11 +1,16 @@
 # Arduino-Nano-Fragment-Blinking-LED via Interrupt
- -the blinking should be realised by using an interrupt
+ -the blinking should be realized by using an interrupt
 
  -the behavior should be set by a global variable
 
  -the delay function should not be used (used for demonstration only)
 
  -for demo the internal LED is used
+
+ -the library TimerOne is here in a subdirectory but it can be downloaded with the Arduino IDE also
+
+ -here is the link where the library can be downloaded from Google Code:
+    https://code.google.com/archive/p/arduino-timerone/downloads
 
 ```cpp
 #include <TimerOne.h>
@@ -53,11 +58,6 @@ void led_handle(void){
 }
 ```
 
-
-
-
-
-https://code.google.com/archive/p/arduino-timerone/downloads
 
 
  
