@@ -1,5 +1,5 @@
 #include <TimerOne.h>
-#define PIN_LED 13 // Build in LED
+#define PIN_LED 6 // Build in LED
 #define on 1 // for LEDstatus, on off blinking
 #define off 0 // for LEDstatus, on off blinking
 #define blinking 2 // for LEDstatus, on off blinking
